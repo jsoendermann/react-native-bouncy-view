@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Animated, Easing } from 'react-native'
 import PropTypes from 'prop-types'
 
-class BouncyView extends Component {
+export default class BouncyView extends Component {
   static EASING = Easing.bezier(0.13, 0.69, 0.32, 1)
 
   static propTypes = {

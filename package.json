@@ -1,0 +1,26 @@
+{
+  "name": "react-native-bouncy-view",
+  "version": "0.1.0",
+  "description": "A View that bounces up and down.",
+  "author": {
+    "name": "Jan Soendermann",
+    "email": "jan.soendermann+npm@gmail.com"
+  },
+  "homepage": "https://github.com/jsoendermann/react-native-bouncy-view",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsoendermann/react-native-bouncy-view.git"
+  },
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "peerDependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "devDependencies": {
+    "prettier": "^1.5.3"
+  }
+}

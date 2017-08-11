@@ -1,6 +1,6 @@
 {
   "name": "react-native-bouncy-view",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A View that bounces up and down.",
   "author": {
     "name": "Jan Soendermann",

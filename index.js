@@ -51,7 +51,7 @@ export default class BouncyView extends Component {
   }
 
   render() {
-    const textYOffset = this.state.yOffset.interpolate({
+    const childYOffset = this.state.yOffset.interpolate({
       inputRange: [0, 1],
       outputRange: [0, -this.props.bounceHeight],
     })
@@ -67,7 +67,7 @@ export default class BouncyView extends Component {
       <Animated.View
         style={{
           marginTop: this.props.bounceHeight,
-          transform: [{ translateY: textYOffset }],
+          transform: [{ translateY: childYOffset }],
         }}
       >
         {childView}
